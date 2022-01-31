@@ -1,0 +1,3 @@
+class payments {
+    Integer id;
+}
