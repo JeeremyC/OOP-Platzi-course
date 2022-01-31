@@ -1,4 +1,4 @@
-from pets import Pets
+from pets import Pets #pets es el nombre del archivo y Pets es el nombre de la clase declarada dentro de ese archivo
 
 if __name__ == "__main__":
     print("holaaa")
