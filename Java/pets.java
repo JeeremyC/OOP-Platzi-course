@@ -1,6 +1,6 @@
 class pets {
     Integer age;
-    Integer size;
+    String size;
     String race;
     String clinical_history;
 }
