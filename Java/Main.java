@@ -8,12 +8,14 @@ class Main {
         michi.size = "small";
         michi.clinical_history = "This cat was in the outside";
         michi.race = "black";
-        System.out.println("michi size: " + michi.size);
+        michi.printDataPet();
 
         pets luna = new pets();
         luna.age = 2;
         luna.size = "medium";
         luna.clinical_history = "any";
         luna.race = "black & white";
+        
+        luna.printDataPet();
     }
 }
