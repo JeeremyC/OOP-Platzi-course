@@ -3,7 +3,7 @@ class Main {
     public static void main(String[] args) {
         System.out.println("holaaaa");
 
-        pets michi = new pets(); //Creamos un objeto, 'pets' es el nombre de la clase y 'pets()' es el metodo constructor generado automaticamente
+        pets michi = new pets("french", 1542, "michi"); //Creamos un objeto, 'pets' es el nombre de la clase y 'pets()' es el metodo constructor generado automaticamente
         michi.age = 3; //empezamos a asignarle valores
         michi.size = "small";
         michi.clinical_history = "This cat was in the outside";
