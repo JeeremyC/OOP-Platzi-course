@@ -7,15 +7,11 @@
 
 class pets {
 
-    age;
-    size;
-    race;
-    clinical_history;
-
-
     constructor (race,size) {
         this.race = race;
         this.size = size;
+        this.age;
+        this.clinical_history;
     }
 
     printDataPets() {
