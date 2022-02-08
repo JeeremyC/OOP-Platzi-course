@@ -6,7 +6,7 @@ class pets {
     String race;
     String clinical_history;
 
-    public pets(Integer id, String name) {
+    public pets(account id, account name) {
         this.id = id;
         this.name = name;
     }
