@@ -14,6 +14,7 @@ class pets {
         this.clinical_history;
     }
 
+
     printDataPets() {
         console.log(this.age);
         console.log(this.race);
